@@ -1,0 +1,66 @@
+body {
+    background-color: #e6ecf0;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 8px;
+}
+
+div {
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    max-width: 50%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(171,158,171,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(171,158,171,1);
+    box-shadow: 0px 0px 5px 0px rgba(171,158,171,1);
+    margin: auto;
+}
+
+.log-in, .account-activation{
+    padding: 20px 10px 20px 100px;
+}
+
+.account-activation{
+    background-color: #f5f8fa;
+    color:#BDBDBD;
+    font-size: 13px;
+}
+
+.account-info {
+    width: 40%;
+    height: 25px;
+}
+
+.account-info::placeholder{
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #006dbf;
+}
+
+button:focus {
+    outline: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #0091EA;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 8px;
+    font-weight: 100;
+}

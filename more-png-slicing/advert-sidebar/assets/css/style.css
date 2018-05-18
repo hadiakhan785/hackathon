@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div {
+    border: 1px solid #f4f4e7;
+    display: inline-block;
+    background-color: #fefcda;
+    padding: 0 19px;
+    width: 20%;
+}
+
+h4 {
+    color: #9d9a89;
+    font-size: 14px; 
+    font-weight: 900;
+    border-bottom: 1px solid #9d9a89;
+    padding-bottom: 8px;
+}
+
+p {
+    color: #458ad3;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-start;
+}
+
+.stack {
+    color: grey;
+    margin-right: 15px;
+}
+
+
+
+

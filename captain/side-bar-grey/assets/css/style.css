@@ -1,0 +1,30 @@
+body {
+    background-color: #ededed;
+}
+
+div {
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+}
+
+section:nth-child(1) {
+    border-bottom: 1px solid #ededed;
+}
+
+section{
+    padding: 10px 0;    
+}
+
+p {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 25px;
+}
+
+p:hover {
+    background-color: #e9e9e9;
+    cursor: pointer;
+}

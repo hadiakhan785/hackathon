@@ -1,0 +1,165 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {  
+    display: flex;
+    height: 600px;
+    width: 70%;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 25px 0 10px;    
+
+}
+
+.main-image {
+
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    height: 500px;
+    width: 800px;
+
+}
+ h1 {
+     font-size: 20px;
+     justify-content: center;
+     color: #3a3a3a;    
+ }
+
+h1, p {
+    margin:0;
+}
+
+.side-image {
+    height: 50px;
+    width: 50px;
+    border: 3px solid #dddddd;
+    margin: 3px;
+}
+
+.category {
+    color: gray;
+    font-size: 10px;
+    font-style: italic;
+    
+}
+
+.price {
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+section {
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+    padding: 10px;
+}
+
+.red {
+    background-color: #db5967;
+    padding: 5px 8px;
+    margin: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+div section:nth-child(3) {
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: #f7f7f7;
+}
+
+.style-code {
+    color: grey;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+}
+
+div section:nth-child(2) {
+    font-family: sans-serif;
+    padding: 20px;    
+    color: grey;
+    font-size: 10px;
+     
+}
+
+.cart-btn {
+    position: absolute;
+    right: 24px;
+    background-color: #ee522f;
+    color: white;
+}
+
+button {
+    display: inline-block;
+    padding: 10px;
+    height: 40px;
+    width: 180px;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    
+}
+
+a {
+    color: black;
+}
+
+div section:nth-child(4) {
+    height: 70px;
+}
+
+.size-btn {
+    position: relative;
+    left: 24px;
+}
+
+div section:nth-child(4) .size {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+div section:nth-child(4) .save {
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+}
+
+div section:nth-child(4) .share {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+div section:nth-child(4) a {
+    font-family: sans-serif;
+    font-size: 12px; 
+       
+}
+
+div section:nth-child(5)  {
+    padding: 20px;
+}
+
+.shipping-detail {
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 12px;  
+    margin-bottom: 10px;  
+}
+
+.day-estimate {
+    padding-left: 5px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+

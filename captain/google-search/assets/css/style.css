@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div {
+    border: 1px solid #adb1b8;
+    display: inline-block;
+    width: 630px;
+
+}
+
+h1 {
+    color: grey;
+    font-weight: 500;
+    margin: 0;    
+}
+
+section {
+    border: 1px solid #adb1b8;
+    padding: 8px;
+}
+
+details {
+    border: 1px solid #adb1b8;
+    padding: 8px;    
+}
+
+summary {
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:after {
+    color: grey;
+    position: absolute;
+    right: 0;
+    content: "+";
+}
+
+details[open] summary:after {
+    content: "-"
+}
+
+summary:focus { 
+    outline: 2px solid rgba(136, 192, 252, 0.8);
+    outline-offset: 9px; 
+}
+
+.link{
+    font-size: 18px;
+}
+
+.web-address {
+    color: #2e6723; 
+    font-size: 15px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2130ab;
+}
+
+p {
+    padding-left: 10px;
+}
+
+
+
+
+

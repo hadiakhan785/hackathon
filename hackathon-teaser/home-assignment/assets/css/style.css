@@ -1,0 +1,165 @@
+body {
+    font-family: 'Open Sans', sans-serif;   
+}
+
+article {
+    max-width: 19.8em;
+    border: 1px solid #ebebe4;
+    margin: 40px;
+}
+
+header {
+    background: linear-gradient(to right, #00ce8e, #0081e8);
+    padding: 20px 35px;
+    text-align: center;
+    color: white;
+    margin-bottom: 35px;
+}
+
+h1{
+    margin: 0;
+}
+
+article h2 {
+    font-size: 1em;
+    font-weight: 800;
+    color: #0069d2;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+article section {
+    position: relative;
+    border-bottom: 1px solid #ebebe4; 
+    margin: 1em;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+p {
+    font-weight: 800;
+    font-size: 0.8em;
+    color: #bfbfb3;
+    
+}
+ 
+.technology {
+    color: #868c96;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.location {
+    font-style: italic;
+    color: #babcbd;
+}
+
+.cost {
+    color: #46c285;
+    font-family: 'Open Sans', sans-serif;   
+    
+
+}
+
+.remote {
+    color: #e7c02f;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.language {
+    background-color: #ddecf6;
+    border: none;
+    color: #0083ff;
+    padding: 5px;
+}
+
+.job-dismiss {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #babcbd;
+    display: none;
+}
+
+.tooltip {
+    position: relative;
+}
+
+.tooltip-text {
+    background: grey;
+    color: white;
+    font: 0.7em sans-serif;
+    visibility: hidden;
+    position: absolute;
+    top: -25px;
+    right: 7px;
+    width: 80px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(124, 118, 118);
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.tooltip .tooltip-text::after {
+    content: '';
+    color: grey;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: 4px;
+    width: 0; height: 0;
+    border-left: 8px solid grey;
+    border-top: 8px solid transparent;
+
+}
+
+.job-dismiss:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+article section:hover .job-dismiss {
+    display: inline;
+}
+
+.job-dismiss:hover {
+    color: #868c96;
+}
+
+article section:hover > h2 { 
+    color: #74B0F6;
+}
+
+h2, p {
+    margin: 0.3em;
+}
+
+
+article section:last-child {
+    border-bottom: none;
+    font-family: 'Open Sans', sans-serif;   
+    
+}
+
+.job-browse {
+    background-color: #0083ff;
+    border: 1px solid #3b8ddf;
+    padding: 8px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 2px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
